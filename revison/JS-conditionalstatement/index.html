@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>conditonal statement is js</h1>
+    <script>
+        // conditional-statements.js
+
+console.log("===== 1. IF Statement =====");
+
+let age1 = 20;
+
+if (age1 >= 18) {
+    console.log("You are eligible to vote.");
+}
+
+console.log("\n===== 2. IF ELSE Statement =====");
+
+let age2 = 16;
+
+if (age2 >= 18) {
+    console.log("You can vote.");
+} else {
+    console.log("You cannot vote.");
+}
+
+console.log("\n===== 3. IF ELSE IF ELSE Statement =====");
+
+let marks = 75;
+
+if (marks >= 90) {
+    console.log("Grade A");
+} else if (marks >= 75) {
+    console.log("Grade B");
+} else if (marks >= 50) {
+    console.log("Grade C");
+} else {
+    console.log("Fail");
+}
+
+console.log("\n===== 4. SWITCH Statement =====");
+
+let day = 3;
+
+switch (day) {
+    case 1:
+        console.log("Monday");
+        break;
+
+    case 2:
+        console.log("Tuesday");
+        break;
+
+    case 3:
+        console.log("Wednesday");
+        break;
+
+    case 4:
+        console.log("Thursday");
+        break;
+
+    case 5:
+        console.log("Friday");
+        break;
+
+    case 6:
+        console.log("Saturday");
+        break;
+
+    case 7:
+        console.log("Sunday");
+        break;
+
+    default:
+        console.log("Invalid Day");
+}
+
+console.log("\n===== 5. Ternary Operator =====");
+
+let age3 = 20;
+
+let result = (age3 >= 18) ? "Adult" : "Minor";
+
+console.log(result);
+    </script>
+    
+</body>
+</html>
